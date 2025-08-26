@@ -1,0 +1,54 @@
+body {
+        background-color: lightslategrey;
+        height: 2000px;
+        margin: 0;
+      }
+
+      .navbar {
+        background-color: darkcyan;
+        margin: 0;
+        top: 0;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        color: white;
+        text-align: center;
+        height:50px;
+        
+      }
+
+      
+      h2{
+        position:sticky;
+        top:70px;
+        background-color: chartreuse;
+        margin:0;
+        width:100%;
+        
+
+      }
+
+      .section1 , .section2 {
+        height: 400px;
+               
+       margin:50px 0;
+      }
+
+      p{
+        
+        display: inline-block;
+      }
+.container{
+  display:flex;
+  flex-direction: row;
+  gap:20px;
+  flex-wrap: wrap;
+}
+
+.box{
+  background-color: mediumslateblue;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: darkviolet;
+}
