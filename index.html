@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 4- Flexibility & Responsiveness</title>
+    <style>
+      body {
+        background-color: lightslategrey;
+        height: 2000px;
+        margin: 0;
+      }
+
+      .navbar {
+        background-color: darkcyan;
+        margin: 0;
+        top: 0;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        color: white;
+        text-align: center;
+        height:50px;
+        
+      }
+
+      
+      h2{
+        position:sticky;
+        top:70px;
+        background-color: chartreuse;
+        margin:0;
+        width:100%;
+        
+
+      }
+
+      .section1 , .section2 {
+        height: 400px;
+               
+       margin:50px 0;
+      }
+
+      p{
+        
+        display: inline-block;
+      }
+.container{
+  display:flex;
+  flex-direction: row;
+  gap:20px;
+  flex-wrap: wrap;
+}
+
+.box{
+  background-color: mediumslateblue;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: darkviolet;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <h3>Advanced CSS</h3>
+    </div>
+
+    
+      <section class="section1">
+        <h2>Welcome to Advanced CSS</h2>
+        <p>
+          I am block level element.
+        </p>
+        <p>I am another block level element</p>
+      </section>
+      <section class="section2">
+        <h2>Introduction to Advanced CSS</h2>
+
+        <div class="container">
+          <div class="box">Name: Joy </div>
+          <div class="box">Age: 5</div>
+          <div class="box">Location: Earth</div>
+        </div>
+    
+  </body>
+</html>
